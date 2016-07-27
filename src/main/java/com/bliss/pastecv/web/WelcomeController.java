@@ -41,7 +41,7 @@ public class WelcomeController {
 	public String home(Map<String, Object> model){
 		logger.debug("home() is executed");
 		
-		return "home";
+		return "home1";
 	}
 	
 	private String streamToString(InputStream is) throws IOException{
